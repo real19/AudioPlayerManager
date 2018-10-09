@@ -176,7 +176,6 @@
 				3A4866561D50C69100CC4A04 /* Resources */,
 				3AC3E16C1DE485DB00870499 /* Embed Frameworks */,
 				1BAFFA1571C46688DA768932 /* [CP] Embed Pods Frameworks */,
-				1F268542196D3F9316D22129 /* [CP] Copy Pods Resources */,
 				87E1A48A1E57B79700A152B2 /* Run SwiftLint */,
 			);
 			buildRules = (
@@ -260,20 +259,6 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
-		};
-		1F268542196D3F9316D22129 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Example/Pods-Example-resources.sh\"\n";
 		};
 		87E1A48A1E57B79700A152B2 /* Run SwiftLint */ = {
 			isa = PBXShellScriptBuildPhase;
